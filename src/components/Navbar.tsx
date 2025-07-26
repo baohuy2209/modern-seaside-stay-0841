@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-2">
           <ThemeToggle />
           <Button asChild className="btn-primary">
-            <Link to="/booking">{t.nav.bookNow}</Link>
+            <Link to="/apartments">{t.nav.bookNow}</Link>
           </Button>
         </div>
 
