@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Spa, Dumbbell, Pool, Yoga, Utensils, Wine, Coffee, Clock, Car, Plane, Car as CarIcon, MapPin, Waves, Users, Music, BookOpen } from "lucide-react";
+import { Dumbbell, Utensils, Wine, Coffee, Clock, Plane, Car as CarIcon, MapPin, Waves, Users, Music, BookOpen, Sparkle, Zap, Spade } from "lucide-react";
 
 export default function Amenities() {
   const { t } = useLanguage();
@@ -16,7 +16,7 @@ export default function Amenities() {
   // Helper function to get the appropriate icon for each amenity
   const getIcon = (categoryName: string, index: number) => {
     const icons = {
-      wellness: [<Spa key={0} />, <Dumbbell key={1} />, <Pool key={2} />, <Yoga key={3} />],
+      wellness: [<Sparkle key={0} />, <Dumbbell key={1} />, <Zap key={2} />, <Spade key={3} />],
       dining: [<Utensils key={0} />, <Coffee key={1} />, <Wine key={2} />, <Clock key={3} />],
       services: [<Clock key={0} />, <Plane key={1} />, <CarIcon key={2} />, <MapPin key={3} />],
       entertainment: [<Waves key={0} />, <Users key={1} />, <Music key={2} />, <BookOpen key={3} />]
@@ -34,9 +34,6 @@ export default function Amenities() {
         <section className="relative py-20 bg-gradient-to-r from-sea-light to-white dark:from-sea-dark dark:to-background">
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
-              <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                MareSereno
-              </span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
                 {t.amenitiesPage.title}
               </h1>
@@ -100,35 +97,6 @@ export default function Amenities() {
             </section>
           );
         })}
-        
-        {/* Gallery Section */}
-        <section className="py-16">
-          <div className="container">
-            <div className="text-center max-w-3xl mx-auto mb-12">
-              <h2 className="text-3xl font-bold mb-4">
-                {t.gallery.title}
-              </h2>
-              <p className="text-muted-foreground">
-                {t.gallery.subtitle}
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {Array.from({ length: 8 }).map((_, index) => (
-                <div 
-                  key={index} 
-                  className="aspect-square rounded-lg overflow-hidden shadow-md transition-transform hover:scale-105"
-                >
-                  <img 
-                    src={`https://images.unsplash.com/photo-${1550000000000 + index * 100000}?w=400&h=400&fit=crop`}
-                    alt={`Amenity ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
       
       <Footer />

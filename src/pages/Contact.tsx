@@ -92,9 +92,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.address}</h3>
                       <p className="text-muted-foreground">
-                        123 Seaside Boulevard<br />
-                        Costa Bella, 12345<br />
-                        Italy
+                      No. 1097, Nguyen Xien Street, Long Binh Ward, Thu Duc City, Ho Chi Minh City.
                       </p>
                     </div>
                   </div>
@@ -105,8 +103,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.phone}</h3>
-                      <p className="text-muted-foreground">+39 123 4567 890</p>
-                      <p className="text-muted-foreground">+39 098 7654 321 (Reservations)</p>
+                      <p className="text-muted-foreground">+84 852 651 652</p>
+                      <p className="text-muted-foreground">+84 595 288 587 (Reservations)</p>
                     </div>
                   </div>
                   
@@ -116,8 +114,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.email}</h3>
-                      <p className="text-muted-foreground">info@maresereno.com</p>
-                      <p className="text-muted-foreground">reservations@maresereno.com</p>
+                      <p className="text-muted-foreground">longbinh@gmail.com</p>
+                      <p className="text-muted-foreground">HCMCT@gmail.com</p>
                     </div>
                   </div>
                   
@@ -137,15 +135,7 @@ export default function Contact() {
                 </div>
                 
                 <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03606358136!2d14.165818971864153!3d40.85529294646443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0a3c328d896b%3A0x309e11f99628150!2sGulf%20of%20Naples!5e0!3m2!1sen!2sus!4v1628613152777!5m2!1sen!2sus" 
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen 
-                    loading="lazy"
-                    title="Location Map"
-                  />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3025043972216!2d106.83516237605535!3d10.86458078928959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317520a112abd44f%3A0x305a0d599df034e4!2zMTA5NyBOZ3V54buFbiBYaeG7g24sIExvbmcgQsOsbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1753533357246!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
               
@@ -256,27 +246,27 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-in [animation-delay:200ms]">
               {[
                 {
-                  questionKey: "checkInOut",
+                  questionKey: "visitingHours",
                   icon: <Clock className="h-5 w-5 text-primary" />
+                },
+                {
+                  questionKey: "guidedTours",
+                  icon: <MapPin className="h-5 w-5 text-primary" />
+                },
+                {
+                  questionKey: "attire",
+                  icon: <MapPin className="h-5 w-5 text-primary" />
+                },
+                {
+                  questionKey: "photography",
+                  icon: <MapPin className="h-5 w-5 text-primary" />
                 },
                 {
                   questionKey: "parking",
                   icon: <MapPin className="h-5 w-5 text-primary" />
                 },
                 {
-                  questionKey: "pets",
-                  icon: <MapPin className="h-5 w-5 text-primary" />
-                },
-                {
-                  questionKey: "breakfast",
-                  icon: <MapPin className="h-5 w-5 text-primary" />
-                },
-                {
-                  questionKey: "transfers",
-                  icon: <MapPin className="h-5 w-5 text-primary" />
-                },
-                {
-                  questionKey: "amenities",
+                  questionKey: "festivals",
                   icon: <MapPin className="h-5 w-5 text-primary" />
                 },
               ].map((faq, index) => (

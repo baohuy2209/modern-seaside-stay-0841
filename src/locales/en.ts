@@ -1,22 +1,22 @@
 export const en = {
   nav: {
     home: "Home",
-    apartments: "Apartments",
-    amenities: "Amenities",
+    about: "About",
+    activities: "Activities",
     gallery: "Gallery",
-    contact: "Contact",
-    bookNow: "Book Now"
+    contact: "Contacts",
+    bookNow: "Visit Now"
   },
   hero: {
-    subtitle: "BEACHFRONT LUXURY ACCOMMODATION",
-    title: "Experience Seaside Tranquility",
-    description: "Discover our exclusive collection of luxury beachfront apartments and hotel rooms, offering unparalleled comfort and breathtaking sea views.",
-    bookStay: "Book Your Stay",
-    exploreApartments: "Explore Apartments",
+    subtitle: "CULTURAL & SPIRITUAL LANDMARK OF SAIGON",
+    title: "Discover Serenity at Long Binh Communal House",
+    description: "Experience the peaceful atmosphere, stunning Southeast Asian architecture, and spiritual depth of Buu Long Pagoda. An ideal destination for those seeking mindfulness, tranquility, and beauty in the heart of bustling Ho Chi Minh City.",
+    bookStay: "Visit",
+    exploreApartments: "Contact for Spiritual Tours",
     scrollDown: "Scroll Down"
   },
   footer: {
-    description: "Luxurious beachfront apartments and hotel rooms with stunning sea views, offering the perfect blend of comfort and elegance for your dream vacation.",
+    description: "A sacred and historic site preserving the spiritual and cultural identity of the local people, where tradition and heritage come alive.",
     quickLinks: "Quick Links",
     contact: "Contact",
     newsletter: "Newsletter",
@@ -26,9 +26,8 @@ export const en = {
     allRights: "All rights reserved."
   },
   bookingForm: {
-    title: "Book Your Stay",
-    checkIn: "Check-in Date",
-    checkOut: "Check-out Date",
+    title: "Registration Form",
+    checkIn: "Visit Date",
     adults: "Adults",
     children: "Children",
     adult: "Adult",
@@ -38,8 +37,8 @@ export const en = {
     bookingConfirmed: "Booking Confirmed!"
   },
   testimonials: {
-    title: "What Our Guests Say",
-    description: "Discover why our guests keep coming back to MareSereno for their seaside getaways."
+    title: "Visitor Testimonials",
+    description: "Discover why visitors love the cultural experiences at Dinh Long Binh."
   },
   notFound: {
     title: "Page Not Found",
@@ -48,88 +47,128 @@ export const en = {
   },
   home: {
     welcome: {
-      subtitle: "Welcome to MareSereno",
-      title: "Luxury Seaside Accommodations",
-      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
-      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
-      learnMore: "Learn More"
+      subtitle: "WELCOME TO LONG BINH COMMUNAL HOUSE",
+      title: "A Timeless Cultural & Historical Landmark",
+      description1: "Nestled in the heart of Thu Duc City, Long Binh Communal House stands as a centuries-old symbol of Southern Vietnamese culture and spiritual heritage. With its traditional architecture and sacred atmosphere, it reflects the deep-rooted beliefs and communal spirit of the local people.",
+      description2: "Whether you're a cultural explorer, a history enthusiast, or someone seeking peaceful reflection, Long Binh Communal House offers a meaningful and enriching experience. Every detail tells a story of Vietnam’s enduring cultural values.",
+      learnMore: "More Information"
     },
     booking: {
-      subtitle: "Book Your Stay",
-      title: "Reserve Your Perfect Getaway",
-      description: "Take the first step towards your dream vacation by checking availability and securing your preferred dates. Our simple booking process ensures a seamless experience from reservation to arrival.",
-      benefits: ["Instant confirmation", "Best rate guarantee", "Flexible cancellation options", "Secure payment"]
-    },
-    featuredApartments: {
-      subtitle: "Our Accommodations",
-      title: "Featured Apartments",
-      description: "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views.",
-      viewAll: "View All Apartments"
+      subtitle: "PLAN YOUR CULTURAL VISIT",
+      title: "Schedule a Visit to Long Binh Communal House",
+      description: "Begin your journey to a meaningful cultural experience by selecting your preferred date. Registering your visit helps us welcome you in the most respectful and informative way.",
+      benefits: ["Instant confirmation", "Free admission", "Flexible scheduling", "Local cultural guide support"]
     },
     amenities: {
-      subtitle: "Hotel Amenities",
-      title: "Experience The Best",
-      description: "Enjoy our premium facilities and services designed to make your stay exceptional.",
+      subtitle: "VISITOR AMENITIES",
+      title: "Immerse in a Rich and Authentic Cultural Journey",
+      description: "Discover the historical, cultural, and spiritual essence of Dinh Long Binh – a treasured heritage of Southern Vietnam.",
       features: {
         beachfront: {
-          title: "Beachfront Location",
-          description: "Direct access to pristine beaches with crystal clear waters."
+          title: "CULTURAL HERITAGE",
+          description: "Admire ancient architecture and explore traditional values preserved through generations."
         },
         pools: {
-          title: "Swimming Pools",
-          description: "Relax by our infinity pools with stunning sea views."
+          title: "VIBRANT FESTIVALS",
+          description: "Immerse yourself in local festivals featuring lion dances, ceremonial parades, and traditional rituals."
         },
         restaurant: {
-          title: "Gourmet Restaurant",
-          description: "Enjoy exquisite local and international cuisine."
+          title: "SACRED ATMOSPHERE",
+          description: "Feel the serenity and spirituality of this historic temple site."
         },
         wifi: {
-          title: "High-Speed Wi-Fi",
-          description: "Stay connected with complimentary high-speed internet."
+          title: "KNOWLEDGEABLE GUIDES",
+          description: "Friendly tour guides with in-depth knowledge of local history and culture."
         },
         bar: {
-          title: "Beach Bar & Café",
-          description: "Refreshing drinks and snacks served right on the beach."
+          title: "TRADITIONAL CUISINE",
+          description: "Enjoy authentic local dishes that reflect the region’s culinary heritage."
         },
         location: {
-          title: "Prime Location",
-          description: "Close to local attractions, shops, and restaurants."
+          title: "MEMORABLE PHOTOS",
+          description: "Capture beautiful memories in unique cultural spaces of Southern Vietnam."
         }
       }
     },
     cta: {
-      title: "Ready for Your Dream Vacation?",
-      description: "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views.",
-      bookNow: "Book Now"
+      title: "Ready for a Meaningful Cultural Journey?",
+      description: "Discover Dinh Long Binh – a spiritual and historical landmark that embodies the rich heritage of Southern Vietnam.",
+      bookNow: "Visit Now"
     }
   },
   apartments: {
-    title: "Our Apartments & Rooms",
-    subtitle: "Discover our selection of premium accommodations, ranging from cozy studios to luxurious penthouses.",
-    filters: {
-      guests: "Guests",
-      anyGuests: "Any number of guests",
-      onePlus: "1+ guests",
-      twoPlus: "2+ guests",
-      threePlus: "3+ guests",
-      fourPlus: "4+ guests",
-      location: "Location",
-      allLocations: "All locations",
-      priceRange: "Price Range",
-      showing: "Showing",
-      of: "of",
-      accommodations: "accommodations",
-      resetFilters: "Reset Filters",
-      noMatch: "No apartments match your filters",
-      adjustFilters: "Try adjusting your filter criteria to see more options.",
-      viewDetails: "View Details",
-      features: "features",
-      more: "more"
-    }
+    title: "Long Binh Communal House",
+    subtitle: "Discover the timeless charm of Long Binh Communal House, where ancient architecture and cultural heritage create an unforgettable experience.",
+    contents: [
+      {
+        title: " Discover the Ancient Communal House Rich in Tradition",
+        description: "Located in the heart of Long Binh neighborhood, Long Binh Communal House stands as a remarkable symbol of Southern Vietnam's history, spiritual life, and cultural identity. Dedicated to the tutelary deity and other local spiritual figures, the communal house also served as a silent witness to Vietnam’s resistance wars against the French and Americans.",
+        images: [
+          {
+            src: "/heroSection.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 1. The three-entrance gate of Long Binh Communal House at 1097 Nguyen Xien Street, Long Binh Ward, Thu Duc City"
+          }, 
+          {
+            src: "/subHeroSection1.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 2. The communal house worships the village's tutelary god, the guardian deity of the village's residents, and other deities associated with the residents' lives."
+          }
+        ]
+      },
+      {
+        title: "A Timeless Southern Architectural Masterpiece",
+        description: "Built with reinforced concrete and traditional tiled roofs, Long Binh Communal House spans over 5,000 square meters and includes several key structures: the Martial Arts Hall, Front Hall, Main Sanctuary, Rear Hall, ancestral altars, and a Memorial for Fallen Heroes.The Southern tứ trụ (four-pillared) architecture is evident in details like the coiling dragon pillars, ceremonial drum, sacred statues, and the pathway leading up to the sanctuary atop a hill. Together, they create a solemn and culturally rich atmosphere.", 
+        images: [
+          {
+            src: "/subHeroSection2.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 3. Long Binh Communal House has an area of about 5,000 square meters, surrounded by many ancient trees providing shade all year round."
+          }, 
+          {
+            src: "/subHeroSection4.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 4. The path to the main hall of the communal house is located on a beautiful high hill."
+          }
+        ]
+      },
+      {
+        title: "A Revolutionary Past Engraved in Time",
+        description: "During the French and American wars, Long Binh Communal House played a vital role as a revolutionary base. It sheltered resistance fighters and served as a logistics support hub, providing food and supplies for the local armed forces. The communal house became a symbol of unity and patriotism for the Southern Vietnamese people.",
+        images: [
+          {
+            src: "/heroSection8.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 5. The three-entrance gate of Long Binh Communal House at 1097 Nguyen Xien Street, Long Binh Ward, Thu Duc City"
+          }, 
+        ]
+      },
+      {
+        title: "Rich Beliefs and Unique Cultural Identity",
+        description: "In addition to worshiping the tutelary deity, Long Binh Communal House honors various local deities, national heroes, and contributors to the community. Every architectural element and spiritual artifact tells a story deeply rooted in Vietnamese culture and heritage.",
+        images: [
+          {
+            src: "/subHeroSection3.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 6. Long Binh communal house has the architectural style of a Southern village communal house, with four-pillar architecture, the pillars are decorated with soft, curving dragon shapes and harmonious colors."
+          }, 
+          {
+            src: "/heroSection7.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 7. Some statues in the communal house grounds"
+          },
+          {
+            src: "/heroSection5.png",
+            alt: "Long Binh Communal House",
+            subImageTitle: "Image 8. A large drum is located on the left of the main hall, which is played on the day of the Ky Yen ceremony at the communal house."
+          }
+        ]
+      }
+    ]
   },
   gallery: {
-    title: "Photo Gallery",
-    subtitle: "Explore our seaside paradise through captivating imagery.",
+    title: " Long Binh Communal House Gallery",
+    subtitle: "Discover the timeless charm and rich cultural atmosphere of Long Binh Communal House through authentic and vivid imagery.",
     filters: {
       all: "All",
       exterior: "Exterior",
@@ -227,7 +266,7 @@ export const en = {
   },
   contact: {
     title: "Contact Us",
-    subtitle: "We're here to help make your stay unforgettable. Reach out with any questions or special requests.",
+    subtitle: "We're here to help you explore the rich heritage of Long Binh Communal House. Feel free to reach out with any questions or requests for a deeper cultural experience.",
     getInTouch: "Get In Touch",
     address: "Address",
     phone: "Phone",
@@ -245,33 +284,34 @@ export const en = {
     messageSent: "Message Sent!",
     thankYou: "Thank you for reaching out. We'll respond to your message as soon as possible.",
     faq: "Frequently Asked Questions",
-    faqSubtitle: "Find quick answers to commonly asked questions about our accommodations and services.",
+    faqSubtitle: "Find quick answers to commonly asked questions about Long Binh Communal House",
     questions: {
-      checkInOut: {
-        question: "What are your check-in and check-out times?",
-        answer: "Check-in is from 3:00 PM onwards, and check-out is until 11:00 AM. Early check-in or late check-out may be arranged based on availability."
+      visitingHours: {
+        question: "What are the opening hours of Long Binh Communal House?",
+        answer: "The communal house is open daily from 7:00 AM to 5:00 PM. Entry is free for all visitors."
+      },
+      guidedTours: {
+        question: "Are guided tours available?",
+        answer: "Yes, guided tours can be arranged in advance, especially for school groups or cultural delegations. Please contact local authorities for coordination."
+      },
+      attire: {
+        question: "Is there a dress code when visiting the communal house?",
+        answer: "Visitors are encouraged to dress respectfully, covering shoulders and knees, as it is a place of worship and cultural significance."
+      },
+      photography: {
+        question: "Can I take photos at Long Binh Communal House?",
+        answer: "Yes, photography is allowed in most areas. However, please be mindful not to disturb ongoing ceremonies or other visitors."
       },
       parking: {
-        question: "Is parking available at the property?",
-        answer: "Yes, we offer complimentary parking for all guests. Valet parking service is also available for an additional fee."
+        question: "Is there parking available nearby?",
+        answer: "Yes, there is public parking available around the communal house. Parking is free of charge but may be limited during festival events."
       },
-      pets: {
-        question: "Are pets allowed in the apartments?",
-        answer: "We welcome pets in designated pet-friendly apartments. Please inform us in advance if you plan to bring a pet, as additional charges may apply."
-      },
-      breakfast: {
-        question: "Is breakfast included in the room rate?",
-        answer: "Breakfast is included in select room packages. You can check the inclusion during the booking process or add it to your reservation at any time."
-      },
-      transfers: {
-        question: "Do you offer airport transfers?",
-        answer: "Yes, we offer airport transfers for an additional fee. Please contact our concierge at least 48 hours before your arrival to arrange transportation."
-      },
-      amenities: {
-        question: "What amenities are available at the property?",
-        answer: "Our property features swimming pools, a spa, restaurants, a beach bar, fitness center, and direct beach access. All apartments include Wi-Fi, air conditioning, and modern appliances."
+      festivals: {
+        question: "When do major festivals take place?",
+        answer: "The most notable festival is the annual Kỳ Yên Festival, held according to the lunar calendar. It features rituals, performances, and traditional food."
       }
     }
+    
   },
   apartmentDescriptions: {
     "1": {
@@ -300,95 +340,73 @@ export const en = {
     }
   },
   amenitiesPage: {
-    title: "Our Amenities",
-    subtitle: "Discover the luxury amenities and services that make your stay unforgettable.",
-    description: "At MareSereno, we are dedicated to providing a comprehensive and luxurious stay experience. From our beachfront services to wellness facilities, every detail has been curated to ensure maximum comfort and pleasure.",
+    title: "Activities at Long Binh Communal House",
+    subtitle: "Long Binh Communal House",
+    description: "Discover unique cultural, spiritual, and historical experiences at Long Binh Communal House — a treasured heritage site in Southern Vietnam.",
     categories: {
       wellness: {
-        title: "Wellness & Relaxation",
-        description: "Treat yourself with our range of wellness services designed to rejuvenate body and mind.",
+        title: " Culture & Spirituality",
+        description: "Immerse yourself in sacred traditions and timeless rituals:",
         items: [
           {
-            title: "Luxury Spa",
-            description: "Our spa offers a full range of treatments, from traditional therapies to the most modern beauty treatments."
+            title: "Explore Traditional Southern Architecture",
+            description: "Admire iconic Southern Vietnamese features such as dragon-carved pillars, tiled roofs, ancestral altars, and ceremonial courtyards."
           },
           {
-            title: "Fitness Center",
-            description: "Maintain your fitness routine with our state-of-the-art gym featuring panoramic sea views."
+            title: "Offerings to the Tutelary Deity",
+            description: "Participate in rituals honoring the community's guardian spirit, national heroes, and historical contributors."
           },
           {
-            title: "Infinity Pool",
-            description: "Immerse yourself in our infinity pool while admiring the endless horizon of the sea."
+            title: "Join the Ky Yen Festival",
+            description: "Experience the vibrant atmosphere of this annual celebration with lion dances, traditional opera (hát bội), and folk games."
           },
           {
-            title: "Beach Yoga",
-            description: "Join our morning yoga sessions on the beach for a revitalizing awakening."
+            title: "Peaceful Meditation in a Sacred Setting",
+            description: "Reflect and unwind in the tranquil environment surrounded by historical structures and nature."
           }
         ]
       },
       dining: {
-        title: "Dining",
-        description: "Discover the best of local and international cuisine at our restaurants and bars.",
+        title: "Historical Exploration",
+        description: "Uncover the rich revolutionary and cultural past of the site:",
         items: [
           {
-            title: "Gourmet Restaurant",
-            description: "Savor fine dishes prepared by our chefs with fresh local ingredients."
+            title: "Visit the Memorial for Fallen Heroes",
+            description: "Pay tribute to local war heroes who fought during the resistance against French and American forces."
           },
           {
-            title: "Beach Bar",
-            description: "Enjoy refreshing cocktails and light snacks with your feet in the sand."
+            title: "Historic Landmark Photo Spot",
+            description: "Capture your visit at this officially recognized city-level heritage site with its timeless architecture."
           },
           {
-            title: "Lounge Bar",
-            description: "Relax with a selection of fine wines and spirits in an elegant atmosphere."
+            title: "Discover Stories of sResistance",
+            description: "Learn how the communal house served as a secret base and logistics hub during Vietnam’s wartime resistance."
           },
           {
-            title: "Room Service",
-            description: "Enjoy gourmet meals in the privacy of your apartment, available 24 hours a day."
+            title: "View Historical Artifacts & Inscriptions",
+            description: "Explore ancient relics, royal decrees, stone steles, and documents that showcase the legacy of the temple."
           }
         ]
       },
       services: {
-        title: "Extra Services",
-        description: "Take advantage of our additional services for a hassle-free stay.",
+        title: "Family-Friendly Experiences",
+        description: "Activities suited for families, groups, and young visitors:",
         items: [
           {
-            title: "24/7 Concierge",
-            description: "Our concierge team is available at any time to assist you with any request."
+            title: "Traditional Folk Games for Kids",
+            description: "Let children play with locals in classic Vietnamese games like ô ăn quan, jump rope, and tug of war."
           },
           {
-            title: "Airport Transfers",
-            description: "Travel comfortably to and from the airport with our private transfer service."
+            title: "Community Cultural Exchange Area",
+            description: "Engage with locals to learn about Southern Vietnamese customs, beliefs, and village life."
           },
           {
-            title: "Car Rental",
-            description: "Explore the area with our fleet of premium vehicles available for rent."
+            title: "Traditional Costume Photo Sessions",
+            description: "Dress in áo dài and pose for beautiful pictures in the historic setting of the communal house."
           },
           {
-            title: "Guided Excursions",
-            description: "Discover local attractions with our personalized expert-guided tours."
-          }
-        ]
-      },
-      entertainment: {
-        title: "Entertainment",
-        description: "Enjoy a variety of recreational activities designed for all tastes.",
-        items: [
-          {
-            title: "Water Sports",
-            description: "Try a wide range of water sports, from paddleboarding to jet skiing."
-          },
-          {
-            title: "Kids Play Area",
-            description: "Little ones can have fun in our safe and supervised play area."
-          },
-          {
-            title: "Themed Evenings",
-            description: "Join our weekly themed evenings with live music and entertainment."
-          },
-          {
-            title: "Library & Game Room",
-            description: "Relax with a good book or enjoy board games in our common room."
+            title: "Enjoy Local Cuisine (during special events)",
+            description: "Savor authentic Vietnamese dishes often served during festivals and community events at the site."
           }
         ]
       }

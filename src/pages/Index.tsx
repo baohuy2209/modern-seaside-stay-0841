@@ -4,48 +4,11 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import BookingForm from "@/components/BookingForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import ApartmentCard, { ApartmentProps } from "@/components/ApartmentCard";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Wifi, Utensils, Waves, LifeBuoy, MapPin, Coffee } from "lucide-react";
+import { ArrowRight,LifeBuoy, House, Fan, Book, TowerControl, Camera } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-// Sample apartments data
-const featuredApartments: ApartmentProps[] = [
-  {
-    id: "1",
-    name: "Deluxe Sea View Suite",
-    description: "Luxurious suite with panoramic sea views, modern amenities, and a private balcony.",
-    price: 180,
-    capacity: 2,
-    size: 45,
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Balcony"]
-  },
-  {
-    id: "2",
-    name: "Premium Family Apartment",
-    description: "Spacious apartment ideal for families, with full kitchen and stunning coastal views.",
-    price: 250,
-    capacity: 4,
-    size: 75,
-    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
-    location: "Second row",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Washing Machine"]
-  },
-  {
-    id: "3",
-    name: "Executive Beach Studio",
-    description: "Elegant studio with direct beach access, modern design, and premium finishes.",
-    price: 150,
-    capacity: 2,
-    size: 35,
-    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchenette", "Bathroom", "Air Conditioning", "TV"]
-  }
-];
 
 export default function Index() {
   const { t } = useLanguage();
@@ -58,7 +21,7 @@ export default function Index() {
   // Feature items
   const features = [
     {
-      icon: <Waves className="h-8 w-8 text-primary" />,
+      icon: <House className="h-8 w-8 text-primary" />,
       title: t.home.amenities.features.beachfront.title,
       description: t.home.amenities.features.beachfront.description
     },
@@ -68,22 +31,22 @@ export default function Index() {
       description: t.home.amenities.features.pools.description
     },
     {
-      icon: <Utensils className="h-8 w-8 text-primary" />,
+      icon: <Fan className="h-8 w-8 text-primary" />,
       title: t.home.amenities.features.restaurant.title,
       description: t.home.amenities.features.restaurant.description
     },
     {
-      icon: <Wifi className="h-8 w-8 text-primary" />,
+      icon: <Book className="h-8 w-8 text-primary" />,
       title: t.home.amenities.features.wifi.title,
       description: t.home.amenities.features.wifi.description
     },
     {
-      icon: <Coffee className="h-8 w-8 text-primary" />,
+      icon: <TowerControl className="h-8 w-8 text-primary" />,
       title: t.home.amenities.features.bar.title,
       description: t.home.amenities.features.bar.description
     },
     {
-      icon: <MapPin className="h-8 w-8 text-primary" />,
+      icon: <Camera className="h-8 w-8 text-primary" />,
       title: t.home.amenities.features.location.title,
       description: t.home.amenities.features.location.description
     }
@@ -115,7 +78,7 @@ export default function Index() {
                   {t.home.welcome.description2}
                 </p>
                 <Button asChild className="btn-primary">
-                  <Link to="/about">
+                  <Link to="/apartments">
                     {t.home.welcome.learnMore} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -124,22 +87,22 @@ export default function Index() {
               <div className="relative animate-fade-in [animation-delay:300ms]">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=600&fit=crop"
-                    alt="Seaside view" 
+                    src="/subHeroSection4.png"
+                    alt="Long Binh View" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=400&h=300&fit=crop"
-                    alt="Luxury apartment interior" 
+                    src="/subHeroSection1.png"
+                    alt="Long Binh View 1" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=400&h=300&fit=crop"
-                    alt="Pool view" 
+                    src="/subHeroSection2.png"
+                    alt="Long Binh View 2" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -185,38 +148,6 @@ export default function Index() {
           </div>
         </section>
         
-        {/* Featured Apartments */}
-        <section className="section">
-          <div className="container">
-            <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-in">
-              <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                {t.home.featuredApartments.subtitle}
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-                {t.home.featuredApartments.title}
-              </h2>
-              <p className="text-muted-foreground">
-                {t.home.featuredApartments.description}
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredApartments.map((apartment, index) => (
-                <div key={apartment.id} className="animate-fade-in" style={{ animationDelay: `${(index + 1) * 100}ms` }}>
-                  <ApartmentCard apartment={apartment} />
-                </div>
-              ))}
-            </div>
-            
-            <div className="text-center mt-12">
-              <Button asChild className="btn-primary">
-                <Link to="/apartments">
-                  {t.home.featuredApartments.viewAll} <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </section>
         
         {/* Testimonials Section */}
         <TestimonialsSection />
@@ -265,7 +196,7 @@ export default function Index() {
                 {t.home.cta.description}
               </p>
               <Button asChild size="lg" className="btn-primary">
-                <Link to="/booking">{t.home.cta.bookNow}</Link>
+                <Link to="/apartments">{t.home.cta.bookNow}</Link>
               </Button>
             </div>
           </div>

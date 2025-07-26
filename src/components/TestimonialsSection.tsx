@@ -15,26 +15,26 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sophia Martinez",
-    location: "New York, USA",
+    name: " Nguyễn Thảo",
+    location: "TP. Hồ Chí Minh, Việt Nam",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
-    content: "My family and I had the most wonderful stay at MareSereno. The apartment was immaculate, with breathtaking sea views. The staff went above and beyond to make our vacation special.",
+    content: "“Lần đầu ghé thăm Đình Long Bình, tôi thật sự ấn tượng với không gian cổ kính và trang nghiêm. Người hướng dẫn rất tận tâm, giúp tôi hiểu thêm về lịch sử vùng đất này. Rất đáng để quay lại cùng gia đình!”",
     rating: 5
   },
   {
     id: 2,
-    name: "Marco Rossi",
-    location: "Rome, Italy",
+    name: "Phan Minh Tuấn",
+    location: "Cần Thơ, Việt Nam",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
-    content: "Absolutely perfect location, steps away from the beach. The apartment had everything we needed and more. The modern amenities combined with the traditional coastal charm created a truly magical experience.",
+    content: "Đình Long Bình mang lại cho tôi cảm giác như được trở về với cội nguồn. Không gian yên bình, cây cổ thụ rợp bóng mát và các nghi lễ truyền thống được tổ chức rất trang trọng. Một nơi đáng đến để hiểu thêm về văn hóa Nam Bộ.",
     rating: 5
   },
   {
     id: 3,
-    name: "Emma Johnson",
-    location: "London, UK",
+    name: "Fatimah Binti Idris",
+    location: "Kuala Lumpur, Malaysia",
     avatar: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?w=150&h=150&fit=crop&crop=faces",
-    content: "We spent a wonderful week at this beachfront paradise. The sunrise views from our terrace were worth the trip alone. Exceptionally clean and beautifully designed spaces.",
+    content: "I was truly impressed by the traditional architecture and the warm hospitality from the locals. Long Binh Communal House is a calm and culturally rich destination, perfect for those who love exploring heritage sites.",
     rating: 4
   },
 ];
