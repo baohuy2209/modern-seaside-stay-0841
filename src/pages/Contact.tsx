@@ -133,101 +133,11 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
-                
-                <div className="aspect-video rounded-xl overflow-hidden">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3025043972216!2d106.83516237605535!3d10.86458078928959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317520a112abd44f%3A0x305a0d599df034e4!2zMTA5NyBOZ3V54buFbiBYaeG7g24sIExvbmcgQsOsbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1753533357246!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                </div>
               </div>
               
               {/* Contact Form */}
-              <div className="animate-fade-in [animation-delay:300ms]">
-                <h2 className="text-2xl font-bold mb-6">{t.contact.sendMessage}</h2>
-                
-                <div className="glass-card p-6">
-                  {!isSubmitted ? (
-                    <form onSubmit={handleSubmit} className="space-y-6">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="name">{t.contact.fullName}</Label>
-                          <Input 
-                            id="name" 
-                            name="name"
-                            value={formData.name}
-                            onChange={handleInputChange}
-                            placeholder="John Doe" 
-                            required 
-                          />
-                        </div>
-                        
-                        <div className="space-y-2">
-                          <Label htmlFor="email">{t.contact.email}</Label>
-                          <Input 
-                            id="email" 
-                            name="email"
-                            type="email"
-                            value={formData.email}
-                            onChange={handleInputChange}
-                            placeholder="john@example.com" 
-                            required 
-                          />
-                        </div>
-                      </div>
-                      
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="phone">{t.contact.phoneNumber}</Label>
-                          <Input 
-                            id="phone" 
-                            name="phone"
-                            value={formData.phone}
-                            onChange={handleInputChange}
-                            placeholder="+1 234 567 8900" 
-                          />
-                        </div>
-                        
-                        <div className="space-y-2">
-                          <Label htmlFor="subject">{t.contact.subject}</Label>
-                          <Input 
-                            id="subject" 
-                            name="subject"
-                            value={formData.subject}
-                            onChange={handleInputChange}
-                            placeholder="Reservation Inquiry" 
-                            required 
-                          />
-                        </div>
-                      </div>
-                      
-                      <div className="space-y-2">
-                        <Label htmlFor="message">{t.contact.message}</Label>
-                        <textarea 
-                          id="message" 
-                          name="message"
-                          value={formData.message}
-                          onChange={handleInputChange}
-                          placeholder={t.contact.howCanWeHelp} 
-                          className="w-full min-h-[150px] p-3 rounded-md border border-input bg-background"
-                          required 
-                        />
-                      </div>
-                      
-                      <Button type="submit" className="w-full btn-primary">
-                        <Send className="mr-2 h-4 w-4" />
-                        {t.contact.send}
-                      </Button>
-                    </form>
-                  ) : (
-                    <div className="text-center py-12">
-                      <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <Check className="h-8 w-8 text-green-600 dark:text-green-400" />
-                      </div>
-                      <h3 className="text-xl font-semibold mb-2">{t.contact.messageSent}</h3>
-                      <p className="text-muted-foreground mb-6">
-                        {t.contact.thankYou}
-                      </p>
-                    </div>
-                  )}
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3025043972216!2d106.83516237605535!3d10.86458078928959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317520a112abd44f%3A0x305a0d599df034e4!2zMTA5NyBOZ3V54buFbiBYaeG7g24sIExvbmcgQsOsbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1753533357246!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
