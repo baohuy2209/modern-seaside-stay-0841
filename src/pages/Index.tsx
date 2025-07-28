@@ -2,8 +2,6 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
-import BookingForm from "@/components/BookingForm";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight,LifeBuoy, House, Fan, Book, TowerControl, Camera } from "lucide-react";
@@ -110,9 +108,6 @@ export default function Index() {
             </div>
           </div>
         </section> 
-        
-        {/* Testimonials Section */}
-        <TestimonialsSection />
         
         {/* Features Section */}
         <section className="section bg-card">
